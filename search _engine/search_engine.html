@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <link rel="stylesheet" href="search_engine.css">
+    </head>
+    <body>
+        <div class="static-container">
+            <div class="image-container">
+                <img src="Wikipedia-logo-v2.svg.webp" class="image" alt="">
+            </div>
+            <h1 class="chandu">WIKI Search Engine</h1>
+            <input type="search" placeholder="Search..." class="search-box" id="search-box"> 
+            <hr class="line">
+        </div>
+        <div class="d-none" id="spinner">
+            <div class="d-flex justify-content-center">
+              <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+            </div>
+        </div>
+        <div class="data-display" id="display">
+        </div>
+        <script src="search_engine.js"></script>
+    </body>
+</html>
